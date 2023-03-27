@@ -67,7 +67,7 @@ class Noticia {
    }
 }
 
-$noticia = new Noticia("Titulo", "Resumo da notícia",
+$noticia = new Noticia("Titulo", "notícias",
                        
  "https://s2.glbimg.com/0rJG_4KFvfpURR6rBGTQ9iFFXKQ=/0x0:800x450/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/y/5/2nLsugQTaB5V044a46dA/china-bbc2.jpg", "21/03/2023");
 
