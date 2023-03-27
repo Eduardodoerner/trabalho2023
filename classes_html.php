@@ -56,15 +56,18 @@ class Body {
     }
 }
 
-    class data {
-        private $noticia;
-        public function_construct($noticia){
-           $this ->noticia = &noticia;
-        }
-        public function_toString() {
-          return "<p> puplicado em: {noticia['data']</><hr>";
-          }
+ class Noticia {
+    public $titulo;
+    public $resumo;
+    public $imagem;
+    public $data_publicacao;
+
+    public function __construct($titulo, $resumo, $imagem, $data_publicacao) {
+        $this->titulo = $titulo;
+        $this->resumo = $resumo;
+        $this->imagem = $imagem;
+        $this->data_publicacao = $data_publicacao;
+    }
 }
-
-
 ?>
+
